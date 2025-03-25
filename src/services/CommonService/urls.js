@@ -1,0 +1,7 @@
+export const apiGetListSystemKey = "common/getListSystemkey"
+export const apiGetListProvince = "https://provinces.open-api.vn/api/p"
+export const apiGetListDistrict = "https://provinces.open-api.vn/api/d"
+export const apiInsertParentKey = "common/insertParentKey"
+export const apiGetListTab = "common/getListTab"
+export const apiGetProfitPercent = "common/getProfitPercent"
+export const apiChangeProfitPercent = "common/changeProfitPercent"
