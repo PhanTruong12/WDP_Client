@@ -42,4 +42,3 @@ export const formatNumber = (number) => {
   var formattedNumber = number.toLocaleString('en-US').replace(/,/g, '.')
   return formattedNumber
 }
-
