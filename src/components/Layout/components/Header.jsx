@@ -89,7 +89,7 @@ const Header = () => {
                       height: "25px",
                       borderRadius: "50%",
                       marginBottom: "2px"
-                    }}  
+                    }}
                     src={user?.AvatarPath}
                     alt=""
                   />

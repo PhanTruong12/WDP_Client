@@ -28,7 +28,7 @@ export const HeaderContainerStyled = styled.div`
   left: 0;
   right: 0;
   z-index: 90; 
-   background-color: #1b1d21 !important;
+  background-color: white;
 `
 
 export const HeaderStyled = styled.div`
