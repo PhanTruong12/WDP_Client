@@ -27,7 +27,7 @@ export const HeaderContainerStyled = styled.div`
   left: 0;
   right: 0;
   z-index: 90; 
-  background-color: white;
+   background-color: #1b1d21 !important;
 `
 
 export const HeaderStyled = styled.div`
@@ -36,6 +36,11 @@ export const HeaderStyled = styled.div`
  .ant-menu-horizontal {
     border-bottom: none !important;
   }
+  .ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected,
+  .ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-selected,
+  .ant-menu-light .ant-menu-item {
+   color: white !important;
+   }
 `
 export const BadgeStyled = styled(Badge)`
   .ant-badge,
