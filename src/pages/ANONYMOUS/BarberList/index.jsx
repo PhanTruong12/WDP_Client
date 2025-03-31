@@ -40,21 +40,21 @@ const BarberList = () => {
   return (
     <SpinCustom spinning={loading}>
       <Row gutter={[12, 16]}>
-      <Col span={9} className="mb-35">
+        <Col span={9} className="mb-35">
           <InputCustom
             placeholder="Tìm kiếm theo tên"
             type="isSearch"
             allowClear
             prefix={ListIcons.ICON_SEARCH}
-             onSearch={e => setPagination(pre => ({ ...pre, TextSearch: e }))}
-           />
-         </Col>
-         <Col span={9} className="mb-35">
-           <InputCustom
-             placeholder="Tìm kiếm theo dịa chỉ"
-             type="isSearch"
-             allowClear
-             prefix={ListIcons.ICON_LOCATION}
+            onSearch={e => setPagination(pre => ({ ...pre, TextSearch: e }))}
+          />
+        </Col>
+        <Col span={9} className="mb-35">
+          <InputCustom
+            placeholder="Tìm kiếm theo dịa chỉ"
+            type="isSearch"
+            allowClear
+            prefix={ListIcons.ICON_LOCATION}
             onSearch={e => setPagination(pre => ({ ...pre, TextSearch: e }))}
           />
         </Col>

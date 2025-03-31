@@ -93,7 +93,7 @@ const Header = () => {
                     src={user?.AvatarPath}
                     alt=""
                   />
-                 <div className="white-text">{user?.FullName}</div>
+                  <div className="white-text">{user?.FullName}</div>
                 </Space>
             }
           </Col>

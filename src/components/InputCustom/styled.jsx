@@ -5,16 +5,16 @@ export const InputWrapper = styled(({ isBigSize, ...rest }) => <div {...rest} />
     background-color: white !important;
     color: rgb(0, 0, 0) !important;
     padding: ${props => props.isBigSize ? "8px" : ""} !important;
-   }
- 
-   .ant-input-search .ant-input-affix-wrapper {
-     height: auto !important;
-   }
- 
-   .ant-input-search .ant-input-search-button {
-     height: ${props => props.isBigSize ? "48px" : ""} !important;
-     width: ${props => props.isBigSize ? "50px" : ""} !important;
-     font-size: ${props => props.isBigSize ? "16px" : ""} !important;
+  }
+
+  .ant-input-search .ant-input-affix-wrapper {
+    height: auto !important;
+  }
+
+  .ant-input-search .ant-input-search-button {
+    height: ${props => props.isBigSize ? "48px" : ""} !important;
+    width: ${props => props.isBigSize ? "50px" : ""} !important;
+    font-size: ${props => props.isBigSize ? "16px" : ""} !important;
   }
 
   .ant-input-outlined:hover,
@@ -40,6 +40,7 @@ export const InputWrapper = styled(({ isBigSize, ...rest }) => <div {...rest} />
   .ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary):hover {
     color: var(--color-primary-hover);
   }
+
   .ant-input-outlined.ant-input-disabled {
     border-color: rgba(0, 0, 0, 0.25) !important;
     color: rgba(0, 0, 0, 0.25) !important;

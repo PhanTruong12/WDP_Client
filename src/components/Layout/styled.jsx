@@ -21,6 +21,7 @@ export const ContentStyled = styled.div`
 
 export const HeaderContainerStyled = styled.div`
   box-shadow: rgba(183, 189, 195, 0.2) 0px 8px 24px;
+  background-color: #1b1d21 !important;
   border-bottom: 1px solid var(--color-border-matte);
   position: fixed;
   top: 0;
@@ -39,8 +40,8 @@ export const HeaderStyled = styled.div`
   .ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected,
   .ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-selected,
   .ant-menu-light .ant-menu-item {
-   color: white !important;
-   }
+    color: white !important;
+  }
 `
 export const BadgeStyled = styled(Badge)`
   .ant-badge,

@@ -21,6 +21,7 @@ const UserManagement = React.lazy(() => import("src/pages/ADMIN/UserManagement")
 const PaymentManagement = React.lazy(() => import("src/pages/ADMIN/PaymentManagement"))
 const FeedbackManagement = React.lazy(() => import("src/pages/ADMIN/FeedbackManagement"))
 const DashboardManagement = React.lazy(() => import("src/pages/ADMIN/DashboardManagement"))
+
 // ANONYMOUS
 const AnonymousRoutes = React.lazy(() => import("src/pages/ANONYMOUS/AnonymousRoutes"))
 const Register = React.lazy(() => import("src/pages/ANONYMOUS/Register"))
@@ -354,7 +355,7 @@ const App = () => {
 
   useEffect(() => {
     if (!!user?.IsFirstLogin) {
-      setOpenUpdateUserProfile(user)
+      setOpenUpdateUserProfile(true)
     }
   }, [user])
 
